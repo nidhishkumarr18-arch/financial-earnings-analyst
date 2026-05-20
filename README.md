@@ -82,9 +82,8 @@ financial-earnings-analyst/
 │   ├── evaluation_results.json    # Fine-tuned model metrics
 │   ├── sample_report.md           # Generated analyst report
 │   └── prompt_experiment.py       # Prompt strategy comparison
-├── notebooks/                     # Colab fine-tuning notebook
-├── requirements.txt
-└── README.md
+└── notebooks/                     # Colab fine-tuning notebook
+
 ```
 
 ## 🚀 Quick Start
@@ -109,7 +108,21 @@ python data/download_data.py
 python data/preprocess_data.py
 ```
 
-### 4. Run the analyst
+### 4. Get the fine-tuned model
+
+The fine-tuned LoRA adapter (~154MB) is **not included in this repo** due to GitHub's file size limits. You have two options:
+
+**Option A: Train it yourself (recommended for learning)**
+1. Open `notebooks/financial_sentiment_finetuning.ipynb` in [Google Colab](https://colab.research.google.com)
+2. Set runtime to **T4 GPU** (Runtime → Change runtime type)
+3. Upload `data/train.jsonl` and `data/val.jsonl` to the Colab session
+4. Run all cells — training takes ~45 minutes on a free T4
+5. Download the adapter zip and extract to `models/financial-sentiment-adapter/`
+
+**Option B: Skip fine-tuned model**
+The agent pipeline (`python -m src.main`) works without the fine-tuned model — it uses the Gemini API for sentiment analysis. The fine-tuned model is used for comparison/evaluation only.
+
+### 5. Run the analyst
 ```bash
 python -m src.main
 ```
