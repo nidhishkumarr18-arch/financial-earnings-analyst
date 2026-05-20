@@ -1,0 +1,466 @@
+{
+  "model": "Qwen/Qwen2.5-7B + QLoRA",
+  "test_size": 106,
+  "accuracy": 77.36,
+  "valid_predictions": 106,
+  "invalid_predictions": 0,
+  "classification_report": {
+    "positive": {
+      "precision": 1.0,
+      "recall": 0.4838709677419355,
+      "f1-score": 0.6521739130434783,
+      "support": 31.0
+    },
+    "negative": {
+      "precision": 0.625,
+      "recall": 0.5,
+      "f1-score": 0.5555555555555556,
+      "support": 10.0
+    },
+    "neutral": {
+      "precision": 0.7469879518072289,
+      "recall": 0.9538461538461539,
+      "f1-score": 0.8378378378378378,
+      "support": 65.0
+    },
+    "accuracy": 0.7735849056603774,
+    "macro avg": {
+      "precision": 0.7906626506024096,
+      "recall": 0.6459057071960298,
+      "f1-score": 0.6818557688122905,
+      "support": 106.0
+    },
+    "weighted avg": {
+      "precision": 0.8094737440327346,
+      "recall": 0.7735849056603774,
+      "f1-score": 0.7569094935788947,
+      "support": 106.0
+    }
+  },
+  "predictions": [
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "negative"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "negative"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "negative"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "positive",
+      "predicted": "positive"
+    },
+    {
+      "actual": "negative",
+      "predicted": "negative"
+    },
+    {
+      "actual": "negative",
+      "predicted": "negative"
+    },
+    {
+      "actual": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "negative",
+      "predicted": "negative"
+    },
+    {
+      "actual": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "actual": "negative",
+      "predicted": "negative"
+    },
+    {
+      "actual": "negative",
+      "predicted": "negative"
+    }
+  ]
+}

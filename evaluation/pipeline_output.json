@@ -1,0 +1,139 @@
+{
+  "company_name": "Agilent Technologies, Inc.",
+  "quarter": "4",
+  "year": "2020",
+  "num_chunks": 29,
+  "sentiment_result": {
+    "overall_sentiment": "positive",
+    "confidence": 0.95,
+    "key_phrases": [
+      "very strong close to 2020",
+      "better than expected results",
+      "exiting 2020 with solid momentum",
+      "strong growth exceeding our expectations",
+      "well-positioned to accelerate our growth"
+    ],
+    "reasoning": "The sentiment is classified as positive because the executives reported strong Q4 results that exceeded expectations, broad-based growth across all regions and key segments, and provided optimistic guidance for fiscal year 2021."
+  },
+  "metrics_result": {
+    "metrics": [
+      {
+        "metric_name": "Revenue",
+        "value": "$1.48 billion",
+        "period": "Q4 2020",
+        "context": "We posted revenues of $1.48 billion during the quarter."
+      },
+      {
+        "metric_name": "Reported Revenue Growth",
+        "value": "8%",
+        "period": "Q4 2020",
+        "context": "Revenues are up 8% on a reported basis, and up 6% core."
+      },
+      {
+        "metric_name": "Core Revenue Growth",
+        "value": "6%",
+        "period": "Q4 2020",
+        "context": "Revenues are up 8% on a reported basis, and up 6% core."
+      },
+      {
+        "metric_name": "Operating Margin",
+        "value": "24.9%",
+        "period": "Q4 2020",
+        "context": "Operating margins are a healthy 24.9%."
+      },
+      {
+        "metric_name": "EPS",
+        "value": "$0.98",
+        "period": "Q4 2020",
+        "context": "EPS of $0.98 is up 10% year-over-year."
+      },
+      {
+        "metric_name": "Life Sciences and Applied Markets Group (LSAG) Revenue",
+        "value": "$671 million",
+        "period": "Q4 2020",
+        "context": "Our Life Sciences and Applied Markets Group generated $671 million in revenue, up 8% on a reported basis, and up 4% core."
+      },
+      {
+        "metric_name": "Agilent CrossLab Group (ACG) Revenue",
+        "value": "$518 million",
+        "period": "Q4 2020",
+        "context": "The Agilent CrossLab Group came in with revenues at $518 million. This is up a reported 9% and up 7% core."
+      },
+      {
+        "metric_name": "Diagnostics and Genomics Group (DGG) Revenue",
+        "value": "$294 million",
+        "period": "Q4 2020",
+        "context": "In the Diagnostics and Genomics Group, revenues were $294 million, up 9% reported, and up 7% core."
+      },
+      {
+        "metric_name": "NASD Oligo Manufacturing Revenue Growth",
+        "value": "roughly 40%",
+        "period": "Q4 2020",
+        "context": "Growth was broad-based, with NASD oligo manufacturing revenues up roughly 40%."
+      },
+      {
+        "metric_name": "Revenue",
+        "value": "$5.34 billion",
+        "period": "FY 2020",
+        "context": "We generated $5.34 billion in revenue, up 3% on a reported basis, and up nearly 1% core."
+      },
+      {
+        "metric_name": "Cell Analysis Business Revenue",
+        "value": "more than $300 million",
+        "period": "FY 2020",
+        "context": "In total, the cell analysis business generated more than $300 million in revenue for us during the year, with double-digit growth in Q4, and continued strong growth prospects."
+      },
+      {
+        "metric_name": "EPS",
+        "value": "$3.28",
+        "period": "FY 2020",
+        "context": "Full-year earnings per share grew 5% during fiscal 2020, to $3.28."
+      },
+      {
+        "metric_name": "Operating Margin",
+        "value": "23.5%",
+        "period": "FY 2020",
+        "context": "The full-year operating margin of 23.5% is up 20 basis points over fiscal 2019."
+      },
+      {
+        "metric_name": "Operating Cash Flow",
+        "value": "$377 million",
+        "period": "Q4 2020",
+        "context": "In Q4, we had operating cash flow of $377 million, but more than $60 million over last year"
+      },
+      {
+        "metric_name": "Share Repurchases",
+        "value": "2.48 million shares for $250 million",
+        "period": "Q4 2020",
+        "context": "in Q4, we continued our balanced capital approach to repurchasing $2.48 million shares for $250 million."
+      },
+      {
+        "metric_name": "Share Repurchases",
+        "value": "just over 5.2 million shares for $469 million",
+        "period": "FY 2020",
+        "context": "For the year, we repurchased just over 5.2 million shares for $469 million"
+      },
+      {
+        "metric_name": "Cash",
+        "value": "$1.4 billion",
+        "period": "FY 2020",
+        "context": "ended the fiscal year in a strong financial position with $1.4 billion in cash and just under $2.4 billion in debt"
+      },
+      {
+        "metric_name": "Debt",
+        "value": "just under $2.4 billion",
+        "period": "FY 2020",
+        "context": "ended the fiscal year in a strong financial position with $1.4 billion in cash and just under $2.4 billion in debt"
+      }
+    ],
+    "guidance": "For FY 2021, Agilent expects revenue to range between $5.6 billion and $5.7 billion (reported growth of 5% to 7%, core growth of 4% to 6%), operating margin expansion of 50 to 70 basis points, non-GAAP EPS of $3.57 to $3.67, operating cash flow of $1.0 billion to $1.05 billion, and capital expenditures of $200 million. For Q1 2021, revenue is expected to range from $1.42 billion to $1.43 billion (reported growth of 4.5% to 5.5%, core growth of 3.5% to 4.5%) and non-GAAP EPS of $0.85 to $0.88.",
+    "risks_mentioned": [
+      "Renewed spikes in COVID-19 that could cause additional economic uncertainty or extended shutdowns.",
+      "Greater than usual level of uncertainty in the marketplace across most regions.",
+      "Susceptibility and variability in diagnostics businesses due to pandemic impacts.",
+      "Uncertainty in the recovery curve of the chemical and energy (C&E) market.",
+      "Unfavorable impact of foreign exchange (FX) on gross margins.",
+      "Build-out costs of the second line at the Frederick Colorado NASD site acting as an operating margin headwind (approximately 20 basis points)."
+    ]
+  }
+}

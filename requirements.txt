@@ -1,0 +1,23 @@
+# Data handling
+pandas==2.2.2
+datasets==3.6.0
+
+# LLM & Fine-tuning (for local use + Colab)
+transformers==4.52.3
+peft==0.15.2
+accelerate==1.7.0
+bitsandbytes==0.45.5
+trl==0.18.1
+
+# Agentic framework
+langchain==0.3.25
+langgraph==0.4.7
+langchain-google-genai==2.1.5
+
+# Evaluation
+scikit-learn==1.6.1
+matplotlib==3.10.3
+
+# Utilities
+python-dotenv==1.1.0
+tqdm==4.67.1
