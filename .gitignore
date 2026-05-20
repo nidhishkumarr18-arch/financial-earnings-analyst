@@ -1,7 +1,10 @@
 venv/
 .env
-models/
-data/
 __pycache__/
 *.pyc
 .DS_Store
+data/*.csv
+data/*.jsonl
+models/*.safetensors
+models/*.bin
+*.safetensors

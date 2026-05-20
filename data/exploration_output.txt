@@ -1,0 +1,103 @@
+======================================================================
+📊 EXPLORING THE SENTIMENT DATASET
+======================================================================
+
+Found files: ['sentiment_test.csv']
+
+──────────────────────────────────────────────────
+📂 File: sentiment_test.csv
+──────────────────────────────────────────────────
+
+🔢 Number of rows: 700
+📋 Columns: ['transcript', 'sentiment']
+
+📝 First 3 rows:
+
+  --- Row 1 ---
+  transcript: Thank you for standing by. Good day, everyone, and welcome to the Amazon.com Fourth Quarter 2023 Financial Results Teleconference. [Operator Instructions] Today's call is being recorded. For opening r...
+  sentiment: neutral
+
+  --- Row 2 ---
+  transcript: Hello, and welcome to our Q4 2023 financial results conference call. Joining us today to answer your questions is Andy Jassy, our CEO; and Brian Olsavsky, our CFO.
+  sentiment: neutral
+
+  --- Row 3 ---
+  transcript: As you listen to today's conference call, we encourage you to have our press release in front of you, which includes our financial results as well as metrics and commentary on the quarter. Please note...
+  sentiment: neutral
+
+📊 Column details:
+
+  Column: 'transcript'
+    Data type: object
+    Non-null count: 700/700
+
+  Column: 'sentiment'
+    Data type: object
+    Non-null count: 700/700
+    Unique values (3):
+      'neutral': 428 (61.1%)
+      'positive': 206 (29.4%)
+      'negative': 66 (9.4%)
+
+
+======================================================================
+📊 EXPLORING THE TRANSCRIPTS DATASET
+======================================================================
+
+🔢 Number of transcripts: 100
+📋 Columns: ['symbol', 'quarter', 'year', 'date', 'content', 'structured_content', 'company_name', 'company_id']
+
+📊 Column details:
+
+  Column: 'symbol'
+    Data type: object
+    Non-null count: 100/100
+    Sample value: A
+
+  Column: 'quarter'
+    Data type: int64
+    Non-null count: 100/100
+    Sample value: 4
+
+  Column: 'year'
+    Data type: int64
+    Non-null count: 100/100
+    Sample value: 2020
+
+  Column: 'date'
+    Data type: object
+    Non-null count: 100/100
+    Sample value: 2020-11-23 16:30:00
+
+  Column: 'content'
+    Data type: object
+    Non-null count: 100/100
+    Sample value: Operator: Good afternoon, and welcome to the Agilent Technologies Fourth Quarter Earnings Conference Call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session. [Operator Instructions] Thank you. And now, I'd lik...
+
+  Column: 'structured_content'
+    Data type: object
+    Non-null count: 100/100
+    Sample value: [{'speaker': 'Operator', 'text': "Good afternoon, and welcome to the Agilent Technologies Fourth Quarter Earnings Conference Call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session. [Operator Instructions] Tha...
+
+  Column: 'company_name'
+    Data type: object
+    Non-null count: 100/100
+    Sample value: Agilent Technologies, Inc.
+
+  Column: 'company_id'
+    Data type: float64
+    Non-null count: 100/100
+    Sample value: 154924.0
+
+──────────────────────────────────────────────────
+📝 SAMPLE TRANSCRIPT (first one, truncated to 1000 chars):
+──────────────────────────────────────────────────
+
+  Column 'content' (first 1000 chars):
+  Operator: Good afternoon, and welcome to the Agilent Technologies Fourth Quarter Earnings Conference Call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session. [Operator Instructions] Thank you. And now, I'd like to introduce you to the host for today's conference, Ankur Dhingra, Vice President of Investor Relations. Sir, please go ahead.
+Ankur Dhingra: Thank you, and welcome everyone to Agilent's fourth quarter and full-year conference call for fiscal year 2020. With me are Mike McMullen, Agilent's President and CEO; and Bob McMahon, Agilent's Senior Vice President and CFO. Joining in the Q&A after Bob's comments will be: Jacob Thaysen, President of Agilent's Life Sciences & Applied Markets Group; Sam Raha, President of Agilent's Diagnostics and Genomics Group; and Padraig McDonnell, President of Agilent CrossLab Group. This presentation is being webcast live. The news release, Investor presentati
+  ... [56055 total characters]
+
+======================================================================
+✅ Exploration complete!
+======================================================================
